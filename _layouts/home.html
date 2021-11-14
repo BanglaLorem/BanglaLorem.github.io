@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>বাংলা লোরেম | প্লেসহোল্ডার বাংলা নমুনা লেখা জেনারেটর</title>
+  <link rel="stylesheet" href="assets\css\style.css">
+  <!--Dependencies-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="assets\images\BanglaLorem-favicon.png"/>
+  <img src="assets\images\sukumar02.png" class="sr-02" alt="Image File">
+  <img src="assets\images\sukumar05.png" class="sr-05" alt="Image File"> 
+  <img src="assets\images\logo.png" class="site-logo" alt="Site Logo">
+  <img src="assets\images\sukumar01.png" class="sr-01" alt="Image File">
+  <img src="assets\images\sukumar03.png" class="sr-03" alt="Image File">
+
+</head>
+<body>
+<div class="wrapper">	
+	<div class="top">
+		<form class="collect-vars">
+			<input id="num" class="number checked" type="number" value="5" min="1" max="999" maxlength="3" name="num">			
+			<select id="typ" class="thing checked" name="font">
+				<option value="p">প্যারা/অনুচ্ছেদ</option>
+				<option value="s">লাইন</option>
+				<option value="w">শব্দ</option>
+			</select>
+			<div id="generate">Generate</div>
+		</form>
+	</div>
+	<div class="bottom">
+		<div id="display" class="display"></div>
+	</div>
+</div>
+<div>
+	<span id="display"></span>
+	<button id="ctc" type="button" onclick="copyToClip()">Copy Generated Text</button>
+</div>
+<div id="copied-success" class="copied">
+	<span>Success! HaJaBaRaLa Text Copied!</span>
+</div>
+  
+<div class="footer">
+	<div id="tribute">Here proudly used works of <a href="https://en.wikipedia.org/wiki/Sukumar_Ray" target="_blank">Sukumar Ray</a> to pay tribute to the Maestro</div>	
+	<div id="copy">
+	&copy; BanglaLorem </span><span id="copyright"> <script>$('#copyright').text(new Date().getFullYear());</script> </span>
+	</div>	
+	<div id="creator">
+	Developed by <a href="https://www.facebook.com/sirussel" target="_blank">Saiful Islam Russel</a> 
+	</div>
+</div>
+<script src="assets\js\script.js"></script>  
+</body>
+</html>
