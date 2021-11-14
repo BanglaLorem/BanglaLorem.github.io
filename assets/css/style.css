@@ -130,7 +130,7 @@ form select, form input{
 	background-color: #fff;
 	color: #000;
 	margin-top: 15px;
-	padding-top: 2px;
+	padding-top: 3px;
 	transition: all .1s ease-in;
 	-webkit-transition: all .1s ease-in;
 }
